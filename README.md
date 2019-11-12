@@ -5,5 +5,5 @@ Go lang installed
 # Usage
 * Clone Repo
 * ``` go install scan-ports ```
-* ``` go run main.go > output.txt ```
+* ``` go run main.go {IP or resolvable hostname} > output.txt ```
 * ``` cat output.txt | grep OPEN ```
